@@ -13,7 +13,7 @@
   }
   
   body {
-    font-family: 'Kalam', cursive;
+    font-family: 'DM Serif Display', cursive;
     background: url("../img/fundo1.jpeg") no-repeat top center;
     background-attachment: fixed;
     background-size: cover;
@@ -22,6 +22,7 @@
     justify-items: center;
     height: 100vh;
     color: #4F4F4F;
+
   }
 
   .container {
@@ -98,7 +99,7 @@
   }
 
   .imagem-1 {
-    padding: 15px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
     
   }
  
@@ -106,10 +107,25 @@
     font-weight: bold;
     margin-bottom: 1rem;
     font-size: 17px;
+    text-align: center;
+  }
+
+  #projetos {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  #cvit {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .portfolio p {
+    font-size: 18px;
   }
 
   .git {
-    padding: 40px 0px 0px 200px;
+    padding: 40px 0px 0px 235px;
     width: 10%;
     opacity: 1;
     transition: 400ms;
@@ -120,7 +136,7 @@
     opacity: 0.3;
 }  
   .cv {
-    padding: 40px 0px 0px 200px;
+    padding: 40px 0px 0px 235px;
     width: 10%;
     opacity: 1;
     transition: 400ms
@@ -132,12 +148,15 @@
     
   .copyright {
     font-size: 24px;
-    color: white;
+    font-weight: bold;
+    color: black;
     text-shadow: 2px 2px 16px black;
-    margin-top: 50vh;
+    margin-top: 25vh;
     padding-bottom: 50vh;
     text-align: center;
+    padding: 0px 0px 10px ;
   }
+
   
   @media (max-width: 600px) {
     body {
